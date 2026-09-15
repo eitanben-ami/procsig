@@ -10,9 +10,9 @@ readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.9"
 authors = [
-  {name = "ProjectCreationAgent"}
+  {name = "Eitan Ben-Ami"}
 ]
-keywords = ["cli", "process", "inspection", "devtools"]
+keywords = ["cli", "process", "inspection", "devtools", "python", "stdlib"]
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Environment :: Console",
@@ -31,6 +31,10 @@ dependencies = []
 
 [project.optional-dependencies]
 dev = ["pytest>=7.4"]
+
+[project.urls]
+Repository = "https://github.com/eitanben-ami/procsig"
+Homepage = "https://github.com/eitanben-ami/procsig"
 
 [project.scripts]
 procsig = "procsig:main"
